@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 0 1em;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: #2c4f63;
+    border-bottom: 2px solid #2c4f63;
+    padding-bottom: 0.3em;
+}
+
+h3 {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 0.2em;
+}
+
+p {
+    margin: 1em 0;
+}
+
+/* Comment sections */
+p + h3 {
+    margin-top: 2em;
+    border-top: 1px solid #ddd;
+    padding-top: 1em;
+}
+
+/* Comment form */
+form {
+    background: #fff;
+    padding: 1.5em;
+    border: 1px solid #ddd;
+    margin: 2em 0;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+input[type="submit"] {
+    background: #2c4f63;
+    color: white;
+    border: none;
+    padding: 0.5em 1.5em;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+input[type="submit"]:hover {
+    background: #1d3545;
+} 
