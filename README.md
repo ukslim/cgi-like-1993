@@ -25,6 +25,10 @@ Maybe there are ones I don't know about...
 
 Try including a `!` in your comment. Try including a `*`. Oops. How would you fix it?
 
+CSS wasn't around at the time we were
+working this way, but I succumbed to
+temptation.
+
 Use Perl next time ;) 
 
 
