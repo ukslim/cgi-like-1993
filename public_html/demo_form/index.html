@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <title>Demo Form</title>
+</head>
+
+<body>
+
+    <h1>Demo Forms</h1>
+    <h2>GET form</h2>
+    <form action="dump-request.cgi/extra/path" method="get">
+        <label for="input1">Input 1:</label>
+        <input type="text" name="input1" id="input1"><br>
+        <!-- Radio buttons -->
+        <p>
+            <label>Radio:</label>
+            <input type="radio" name="station" value="radio1" id="radio1">
+            <label for="radio1">Radio 1</label>
+            <input type="radio" name="station" value="radio2" id="radio2">
+            <label for="radio2">Radio 2</label>
+            <input type="radio" name="station" value="radio3" id="radio3">
+            <label for="radio3">Radio 3</label>
+        </p>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>POST form</h2>
+    <!-- You can also set enctype="multipart/form-data" to send the form data in a different format -->
+    <form action="dump-request.cgi/extra/path" method="post" enctype="application/x-www-form-urlencoded">
+        <label for="input1">Input 1:</label>
+        <input type="text" name="input1" id="input1"><br>
+        <!-- Checkbox -->
+        <label for="checkBox1">checkbox</label>
+        <input type="checkbox" name="checkBox1" id="checkBox1"><br>
+        <!-- Radio buttons -->
+        <p>
+            <label>Radio:</label>
+            <input type="radio" name="station" value="radio1" id="radio1">
+            <label for="radio1">Radio 1</label>
+            <input type="radio" name="station" value="radio2" id="radio2">
+            <label for="radio2">Radio 2</label>
+            <input type="radio" name="station" value="radio3" id="radio3">
+            <label for="radio3">Radio 3</label>
+        </p>
+
+        <!-- Select dropdown -->
+        <p>
+            <label for="country">Dropdown:</label>
+            <select name="country" id="country">
+                <option value="">Select an option</option>
+                <option value="dropDownOption1">Drop Down Option 1</option>
+                <option value="dropDownOption2">Drop Down Option 2</option>
+                <option value="dropDownOption3">Drop Down Option 3</option>
+            </select>
+        </p>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
